@@ -8,8 +8,8 @@ from itertools import permutations
 
 #======================  DATA EXTRACTION & PREPROCESSING  =====================
    
-df_original = pd.read_csv("Ready_data.csv",sep=",")
-df = pd.read_csv("Aggregated Data.csv",index_col="CUST_KEY",sep=",")
+df_original = pd.read_csv("/app/Ready_data.csv",sep=",")
+df = pd.read_csv("/app/Aggregated Data.csv",index_col="CUST_KEY",sep=",")
 df1 = df.copy()
 
 scaler = MinMaxScaler() #MinMax Normalize Numeric Values

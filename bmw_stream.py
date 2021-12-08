@@ -11,8 +11,8 @@ from itertools import permutations
 file1 = "Ready_data.csv"
 file2 = "Aggregated Data.csv"
 
-df_original = pd.read_csv(file1)
-df = pd.read_csv(file2,index_col="CUST_KEY")
+df_original = pd.read_csv(file1,sep=",")
+df = pd.read_csv(file2,index_col="CUST_KEY",sep=",")
 df1 = df.copy()
 
 scaler = MinMaxScaler() #MinMax Normalize Numeric Values

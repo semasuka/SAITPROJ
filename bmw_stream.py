@@ -5,11 +5,15 @@ import sklearn
 from sklearn.metrics import pairwise_distances
 from sklearn.preprocessing import MinMaxScaler, LabelEncoder
 from itertools import permutations
+from pathlib import Path
 
 #======================  DATA EXTRACTION & PREPROCESSING  =====================
-   
-df_original = pd.read_csv("/app/Ready_data.csv",sep=",")
-df = pd.read_csv("/app/Aggregated Data.csv",index_col="CUST_KEY",sep=",")
+base_path = Path(__file__).parent
+file1 = (base_path / "Ready_data.csv").resolve()
+file2 = (base_path / "Aggregated Data.csv").resolve()
+
+df_original = pd.read_csv(file1)
+df = pd.read_csv(file2,index_col="CUST_KEY")
 df1 = df.copy()
 
 scaler = MinMaxScaler() #MinMax Normalize Numeric Values

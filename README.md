@@ -1,5 +1,5 @@
 ![banner](assets/Bmw_recsys.png)
-Banner [source](https://banner.godori.dev/)
+
 
 ![Python version](https://img.shields.io/badge/Python%20version-3.7%2B-lightgrey)
 ![GitHub last commit](https://img.shields.io/github/last-commit/semasuka/SAITPROJ)

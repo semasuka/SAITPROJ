@@ -90,7 +90,7 @@ git clone https://github.com/semasuka/SAITPROJ.git
 enter the project directory
 
 ```bash
-cd **SAITPROJ**
+cd SAITPROJ
 ```
 
 Create a conda virtual environment and install all the packages from the requirements.txt file

@@ -30,8 +30,7 @@ Badge [source](https://shields.io/)
 - [Lessons learned and recommendation](#lessons-learned-and-recommendation)
 - [Limitation and what can be improved](#limitation-and-what-can-be-improved)
 - [Run Locally](#run-locally)
-- [Deployment on streamlit](#deployment-on-streamlit)
-- [App deployed on Streamlit](#app-deployed-on-streamlit)
+- [App deployed on Heroku](#app-deployed-on-heroku)
 - [Repository structure](#repository-structure)
 - [Contribution](#contribution)
 - [License](#license)
@@ -119,20 +118,7 @@ streamlit run bmw_stream.py
 ```
 If you are having issue with streamlit, please follow [this tutorial on how to set up streamlit](https://docs.streamlit.io/library/get-started/installation)
 
-
-## Deployment on streamlit
-
-To deploy this project on streamlit share, follow these steps:
-
-- first, make sure you upload your files on Github, including a requirements.txt file
-- go to [streamlit share](https://share.streamlit.io/)
-- login with Github, Google, etc.
-- click on new app button
-- select the Github repo name, branch, python file with the streamlit codes
-- click advanced settings, select python version 3.7+
-- then save and deploy!
-
-## App deployed on Streamlit
+## App deployed on Heroku
 
 ![Streamlit GIF](assets/gif_streamlit.gif)
 

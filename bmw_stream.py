@@ -8,8 +8,8 @@ from itertools import permutations
 from pathlib import Path
 
 #======================  DATA EXTRACTION & PREPROCESSING  =====================
-df_original = pd.read_csv("https://raw.githubusercontent.com/semasuka/SAITPROJ/main/Ready_Data.csv",sep=",")
-df = pd.read_csv("https://raw.githubusercontent.com/semasuka/SAITPROJ/main/Aggregated%20Data.csv",index_col="CUST_KEY",sep=",")
+df_original = pd.read_csv("https://raw.githubusercontent.com/semasuka/SAITPROJ/main/datasets/Ready_Data.csv",sep=",")
+df = pd.read_csv("https://raw.githubusercontent.com/semasuka/SAITPROJ/main/datasets/Aggregated%20Data.csv",index_col="CUST_KEY",sep=",")
 df1 = df.copy()
 
 scaler = MinMaxScaler() #MinMax Normalize Numeric Values

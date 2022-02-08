@@ -73,7 +73,7 @@ def top_cust(cust, top_number):
 #========================   STREAMLIT CODING SECTION 1 ========================
 
 col1, col2, col3 = st.columns([1, 1, 1])
-col3.image("Logo.png",use_column_width=True)
+col3.image("assets/Logo.png",use_column_width=True)
 
 st.title("M-Power Customer Management")
 
@@ -89,7 +89,7 @@ f = st.sidebar.number_input("Number of Top Customers to Return:", value=10)
 if st.sidebar.button("Run Top Customers"):
     st.header("New Customer Retrieval")
     st.dataframe(top_input(a,b,c,str(d),e,f))
-    
+
 st.sidebar.header("**User Inputs for Existing Customer**")
 
 g = st.sidebar.text_input("Customer Number:", value="")

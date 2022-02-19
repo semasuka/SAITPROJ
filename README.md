@@ -20,8 +20,6 @@ Badge [source](https://shields.io/)
 
 ## Table of Contents
 
-- [Authors](#authors)
-- [Table of Contents](#table-of-contents)
 - [Business problem](#business-problem)
 - [Data source](#data-source)
 - [Methods](#methods)
